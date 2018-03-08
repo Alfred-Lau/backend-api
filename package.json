@@ -1,0 +1,30 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "description": "backend-api-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Alfred-Lau/backend-api.git"
+  },
+  "keywords": [
+    "backend",
+    "api"
+  ],
+  "author": "lj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alfred-Lau/backend-api/issues"
+  },
+  "homepage": "https://github.com/Alfred-Lau/backend-api#readme",
+  "dependencies": {
+    "babel-eslint": "^8.2.2",
+    "koa": "^2.5.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^7.4.0"
+  }
+}
